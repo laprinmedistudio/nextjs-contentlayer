@@ -6,4 +6,9 @@ const nextConfig = {
   swcMinify: true,
 };
 
+
+module.exports = {
+  output: 'export', // genera HTML estático en /out
+}
+
 module.exports = withContentlayer(nextConfig);
